@@ -103,13 +103,11 @@
         margin-left: -20px;
         margin-top: 6px; 
         padding: 0;    
-        float: left;
         display: inline-block;
     }
 
     input {
         display: block;
-        margin-top: ;
     }
 
     label{
