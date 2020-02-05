@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+        background-image: url("https://i.pinimg.com/564x/86/35/e4/8635e4a4b3faa02bc2225695b3d7d8ff.jpg");
+    }
+
+    #container {
+        min-width: 200px;
+        -webkit-margin-top-collapse: collapse;
+    }
+
+    .HUD {
+        font-family: 'Teko', sans-serif;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-image: url("https://i.pinimg.com/564x/86/35/e4/8635e4a4b3faa02bc2225695b3d7d8ff.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .HUD {
+        font-family: 'Teko', sans-serif;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-image: url("https://images.unsplash.com/photo-1543327031-a3ed4b36ab2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    }
+    #container {
+        margin: 300px 200px ;
+        width: auto; 
+        padding: 40px;
+    }
+    
+    #start {
+        background-color: maroon;
+        color:white;
+        width: 100px;
+        height:50px;
+        -webkit-border-radius: 18;
+        -moz-border-radius: 18;
+        border-radius: 18px;
+
+    }
+    
+    .HUD {
+        font-family: 'Teko', sans-serif;
+        background: cornflowerblue ;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    #GameTitle {
+        font-size: 45px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    
+    #Score {
+        font-size: 30px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    #QuestionNumber {
+        font-size: 30px;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+    }
+    
+    #Question {
+        font-size: 60px; 
+    }
+    
+    #questions {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    #material {
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }    
+  }
