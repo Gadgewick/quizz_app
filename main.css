@@ -38,17 +38,20 @@
     }
   }
   
-  /* Desktop Styles */
+   /*Desktop Styles
   @media only screen and (min-width: 961px) {
     body {
       background-image: url("https://images.unsplash.com/photo-1543327031-a3ed4b36ab2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     }
-    #container {
-        margin: 300px 200px ;
+  
+}*/
+      #container {
+        margin: 200px 500px ;
         width: auto; 
         padding: 40px;
+        overflow: auto;
     }
-    
+
     #start {
         background-color: maroon;
         color:white;
@@ -57,7 +60,8 @@
         -webkit-border-radius: 18;
         -moz-border-radius: 18;
         border-radius: 18px;
-
+        position: inherit;
+        float: right;
     }
     
     .HUD {
@@ -93,9 +97,24 @@
         font-size: 60px; 
     }
     
-    #questions {
-        font-size: 40px;
-        margin: 10px;
+    #answers {
+        font-size: 25px;
+        width: 20px;
+        margin-left: -20px;
+        margin-top: 6px; 
+        padding: 0;    
+        float: left;
+        display: inline-block;
+    }
+
+    input {
+        display: block;
+        margin-top: ;
+    }
+
+    label{
+        margin-left:30px;
+        display: inline-block;
     }
     
     #material {
@@ -105,4 +124,4 @@
         align-items: center;
         display: none;
     }    
-  }
+
