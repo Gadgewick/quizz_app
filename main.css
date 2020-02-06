@@ -47,7 +47,7 @@
 }*/
       #container {
         width:60%;
-        min-height: 350px;
+        min-height: 380px;
         margin:200px auto;
         border-radius: 10px;
         font-family: 'Teko', sans-serif;
@@ -75,9 +75,11 @@
         width: fit-content;
         font-size: 20px;
         padding: 10px;
-        margin-left: 1px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 10px;
-        margin-bottom: 10ox;
+        margin-bottom: 10px;
+        display: block;
     }
 
     #next{
@@ -93,6 +95,19 @@
         display: block;
     }
     
+    
+    #restart{
+        background-color: slategray;
+        color: snow;
+        width: fit-content;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: block; 
+    }
     .HUD {
         font-family: 'Teko', sans-serif;
         background: darkgrey ;
@@ -138,17 +153,15 @@
     }
     
     #answers {
-        font-size: 35px;
+        font-size: 25px;
         display: inline-block;
         vertical-align: middle;
         height: 15px;
         padding: 10px;
         margin: 20px;
-        display: flex;
-        justify-content: center;
     }
 
-    a {
+    a.links {
         font-family: 'Teko', sans-serif;
         color: white;
         font-size: 25px;
@@ -159,11 +172,11 @@
         margin-right: auto;
     }
 
-    a:hover {
+    a.links:hover {
         color: lightgray;
     }
 
-    a:active {
+    a.links:active {
 
         color: white;
     }
