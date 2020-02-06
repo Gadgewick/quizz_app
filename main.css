@@ -46,27 +46,56 @@
   
 }*/
       #container {
-        margin: 200px 500px ;
-        width: auto; 
-        padding: 40px;
+        width:60%;
+        min-height: 350px;
+        margin:200px auto;
+        border-radius: 10px;
+        font-family: 'Teko', sans-serif;
+        background: darkgrey ;
+        color: white;
+        border-radius: 10px;
         overflow: auto;
     }
 
     #start {
-        background-color: maroon;
-        color:white;
-        width: 100px;
-        height:50px;
-        -webkit-border-radius: 18;
-        -moz-border-radius: 18;
-        border-radius: 18px;
-        position: inherit;
-        float: right;
+      background-color: slategray;
+      color: snow;
+      width: 40%;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      font-size: 35px;
+      padding: 30px;
+    }
+
+    #submit{
+        background-color: slategray;
+        color: snow;
+        width: fit-content;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 1px;
+        margin-top: 10px;
+        margin-bottom: 10ox;
+    }
+
+    #next{
+        background-color: slategray;
+        color: snow;
+        width: fit-content;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
     }
     
     .HUD {
         font-family: 'Teko', sans-serif;
-        background: cornflowerblue ;
+        background: darkgrey ;
         color: white;
         padding: 20px;
         border-radius: 10px;
@@ -85,6 +114,15 @@
         bottom: 20px;
         right: 20px;
     }
+
+    #finalScore {
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
     
     #QuestionNumber {
         font-size: 30px;
@@ -94,32 +132,57 @@
     }
     
     #Question {
-        font-size: 60px; 
+        font-size: 60px;
+        padding: 15px;
+
     }
     
     #answers {
+        font-size: 35px;
+        display: inline-block;
+        vertical-align: middle;
+        height: 15px;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        font-family: 'Teko', sans-serif;
+        color: white;
         font-size: 25px;
-        width: 20px;
-        margin-left: -20px;
-        margin-top: 6px; 
-        padding: 0;    
-        display: inline-block;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    input {
-        display: block;
+    a:hover {
+        color: lightgray;
     }
 
-    label{
-        margin-left:30px;
-        display: inline-block;
+    a:active {
+
+        color: white;
     }
+
+    
     
     #material {
         font-size: 35px;
         display: flex;
         justify-content: center;
         align-items: center;
-        display: none;
     }    
+
+    #container > img {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
 
